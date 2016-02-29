@@ -2,6 +2,7 @@
 Estructura de datos
 Algoritmo: <br /> 
  <br /> 
+ private int[] sorted;<br>
 public int[] sort(int[] array){ <br /> 
         int anterior; <br /> 
         int actual; <br /> 
