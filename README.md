@@ -1,20 +1,20 @@
 # InsertionSort
 Estructura de datos
 Algoritmo:
-public int[] sort(int[] array){
-        int anterior;
-        int actual;
-        for (int i = 1; i < array.length; i++) {
-            actual = array[i];
-            anterior = i - 1;
-            while(((anterior) >=0) && (actual<array[anterior])){
-                array[anterior + 1] = array[anterior];
-                anterior--;
-            }
+public int[] sort(int[] array){ <br /> 
+        int anterior; <br /> 
+        int actual; <br /> 
+        for (int i = 1; i < array.length; i++) { <br /> 
+            actual = array[i]; <br /> 
+            anterior = i - 1; <br /> 
+            while(((anterior) >=0) && (actual<array[anterior])){ <br /> 
+                array[anterior + 1] = array[anterior]; <br /> 
+                anterior--; <br /> 
+            } <br /> 
             array[anterior+1] = actual;
-        }
-        sorted=array;
-        return sorted;
-    }
-    
+        } <br /> 
+        sorted=array; <br /> 
+        return sorted; <br /> 
+    } <br /> 
+     <br /> 
 - Ve el video en Youtube https://youtu.be/ePBXuAK-GFM donde explico el funcionamiento del algoritmo. 
