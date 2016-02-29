@@ -1,6 +1,7 @@
 # InsertionSort
 Estructura de datos
-Algoritmo:
+Algoritmo: <br /> 
+ <br /> 
 public int[] sort(int[] array){ <br /> 
         int anterior; <br /> 
         int actual; <br /> 
